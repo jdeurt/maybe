@@ -1,5 +1,5 @@
 {
-    "version": "0.0.0",
+    "version": "0.1.0",
     "name": "@jdeurt/maybe",
     "repository": "jdeurt/maybe",
     "description": "An implementation of the Maybe monad in Typescript.",
