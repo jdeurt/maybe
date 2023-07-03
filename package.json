@@ -1,8 +1,8 @@
 {
     "version": "0.0.0",
-    "name": "TODO_MODULE_NAME",
-    "repository": "TODO_USERNAME/TODO_REPO",
-    "description": "TODO_MODULE_DESCRIPTION",
+    "name": "@jdeurt/maybe",
+    "repository": "jdeurt/maybe",
+    "description": "An implementation of the Maybe monad in Typescript.",
     "unpkg": "dist/index.min.js",
     "module": "dist/index.mjs",
     "main": "dist/index.js",
@@ -11,7 +11,7 @@
     "author": {
         "name": "Juan de Urtubey",
         "email": "jdeurt@gmail.com",
-        "url": "https://jdeurt.xyz"
+        "url": "https://sharky.foo"
     },
     "files": [
         "dist",
@@ -26,6 +26,9 @@
     },
     "engines": {
         "node": ">=18"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "scripts": {
         "build": "rollup -c",
@@ -45,9 +48,9 @@
         ]
     },
     "keywords": [
-        "TODO",
-        "module",
-        "keywords"
+        "maybe",
+        "monad",
+        "typescript"
     ],
     "devDependencies": {
         "@fast-check/ava": "^1.1.3",
