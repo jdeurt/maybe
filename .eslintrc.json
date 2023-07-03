@@ -1,6 +1,10 @@
 {
     "extends": "@jdeurt",
 
+    "rules": {
+        "unicorn/no-useless-undefined": "off"
+    },
+
     "overrides": [
         {
             "files": ["test/**/*"],

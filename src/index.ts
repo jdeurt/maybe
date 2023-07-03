@@ -1,1 +1,1 @@
-export { max } from "./max";
+export { Maybe } from "./maybe";
